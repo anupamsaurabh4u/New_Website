@@ -31,8 +31,229 @@
         margin-left: 20px;
 
       } */
+      .menu {
+            font-family: montserrat;
+            background: linear-gradient(90deg, rgba(0, 255, 200, 0.651), rgb(72, 255, 246));
+            height: 4rem;
+            width: 250px;
+        }
+        
+        .menu ol {
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        
+        .menu>ol {
+            max-width: 250px;
+            padding: 0 2rem;
+        }
+        
+        .menu>ol>.menu-item {
+            padding: 0.75rem 0;
+        }
+        
+        .menu>ol>.menu-item:after {
+            content: "";
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            bottom: 5px;
+            left: calc(50% - 2px);
+            background: rgb(72, 255, 246);
+            will-change: transform;
+            transform: scale(0);
+            transition: transform 0.2s ease;
+        }
+        
+        .menu>ol>.menu-item:hover:after {
+            transform: scale(1);
+        }
+        
+        .menu-item {
+            text-align: center;
+            position: relative;
+            line-height: 2.5rem;
+        }
+        
+        .menu-item a {
+            /* text-overflow: ellipsis; */
+            display: inline;
+            color: #FFF;
+        }
+        
+        .sub-menu .menu-item {
+            padding: 0.75rem 0;
+            background: rgba(0, 255, 200, 0.651);
+            opacity: 0;
+            transform-origin: bottom;
+            animation: enter 0.2s ease forwards;
+        }
+        
+        .sub-menu .menu-item:nth-child(1) {
+            animation-duration: 0.2s;
+            animation-delay: 0s;
+        }
+        
+        .sub-menu .menu-item:nth-child(2) {
+            animation-duration: 0.3s;
+            animation-delay: 0.1s;
+        }
+        
+        .sub-menu .menu-item:nth-child(3) {
+            animation-duration: 0.4s;
+            animation-delay: 0.2s;
+        }
+        
+        .sub-menu .menu-item:hover {
+            background: rgb(7, 148, 148);
+        }
+        
+        .sub-menu .menu-item a {
+            padding: 0 0.75rem;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .sub-menu .menu-item {
+                background: #C06C84;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .menu {
+                position: relative;
+            }
+            .menu:after {
+                content: "";
+                position: absolute;
+                top: calc(50% - 2px);
+                right: 1rem;
+                width: 30px;
+                height: 4px;
+                background: #FFF;
+                box-shadow: 0 10px #FFF, 0 -10px #FFF;
+            }
+            .menu>ol {
+                display: none;
+                background: #F67280;
+                animation: fade 0.2s ease-out;
+            }
+            .menu>ol>.menu-item {
+                flex: 1;
+                opacity: 0;
+                animation: enter 0.3s ease-out forwards;
+            }
+            .menu>ol>.menu-item:nth-child(1) {
+                animation-delay: 0s;
+            }
+            .menu>ol>.menu-item:nth-child(2) {
+                animation-delay: 0.1s;
+            }
+            .menu>ol>.menu-item:nth-child(3) {
+                animation-delay: 0.2s;
+            }
+            .menu>ol>.menu-item:nth-child(4) {
+                animation-delay: 0.3s;
+            }
+            .menu>ol>.menu-item:nth-child(5) {
+                animation-delay: 0.4s;
+            }
+            .menu>ol>.menu-item+.menu-item {
+                margin-top: 0.75rem;
+            }
+            .menu>ol>.menu-item:after {
+                left: auto;
+                /* right: 1rem; */
+                /* bottom: calc(50% - 2px); */
+            }
+            .menu>ol>.menu-item:hover {
+                z-index: 1;
+            }
+            /* .menu:hover>ol {
+                display: flex;
+            } */
+            .menu:hover:after {
+                box-shadow: none;
+            }
+        }
+        
+        .sub-menu {
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            left: 0;
+            display: none;
+            z-index: 1;
+        }
+        
+        .menu-item:hover>.sub-menu {
+            display: block;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .sub-menu {
+                width: 100vw;
+                left: -2rem;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        
+        html,
+        body {
+            font-size: 16px;
+            font-family: "Fira Mono", monospace;
+            margin: 0;
+            background: #2A363B;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        @keyframes enter {
+            from {
+                opacity: 0;
+                transform: scaleY(0.98) translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+        
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+  
+    
+    
+    
+    
     </style>
-  </head>
+  
+
+
+
+
+
+
+</head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
@@ -101,8 +322,12 @@
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
                 My name is Anupam and I'm into product management. I love how an idea shapes up to become a realistic function and makes a meaningful impact.
+                </p>
+              <p class="about-wrapper__info-text">
                 I am curious about about how things work and passionate about listening to users, understand the pain points and figure out how to use the available technologies to create solutions and solve their problems at scale.
-              <!-- </p>
+              </p>
+
+                <!-- </p>
                 To make things possible, I can be anyone - from a researcher to an engineer to a technical writer.
               </p>
               <p class="about-wrapper__info-text">
@@ -121,17 +346,20 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text" id="Headings">WHAT I DO</h2>
+          <h2 class="section-title dark-blue-text" id="Headings">What I Do...Done</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Oracle</h3>
+                <h3 class="project-wrapper__text-title">Present - Oracle</h3>
                 <div>
                   <p class="mb-4">
-                    I work as a Product Manager in Oracle's financial services vertical where I help my team build products that allows our customers to run and manage their operations.
-                    My role cuts across products where I use my skillsets to define and enhance features and functionalities for growth and retention strategies, and execute them in collaboration with product managers, technology teams, and business leaders across Oracle and around the world.
+                    I work as a Product Manager in Oracle where I help my team build enterprise banking and financial products
+                     that allows our customers to run and manage their global operations.
+                    My role cuts across suite of products where I use my skillsets to define and enhance features and functionalities
+                     for growth and retention strategies, and execute them in collaboration with product managers, technology teams, and business leaders across Oracle.
+
 
                   </p>
                 </div >
@@ -157,19 +385,35 @@
           <div class="row">
             <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 12</h3>
+                <h3 class="project-wrapper__text-title">Past - Before Oracle</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                    Before Oracle, I worked with Novopay, a startup under startup incubator <a href="http://www.khoslalabs.com/"> Khosla Labs </a> 
+                    to build digital microfinance suite of products that provides the core functionality needed 
+                    to deliver financial services to the 2 billion poor and unbanked as part of financial inclusion. 
+                  </p>         
                 </div> 
-                <a id="link" target="_blank" class="cta-btn cta-btn--hero" href="https://www.oracle.com/in/industries/financial-services/" >
-                  Visit
-                </a>
+                <!-- <a id="link" target="_blank" class="cta-btn cta-btn--hero" href="https://novopaybanking.com/" >
+                  Visit Website
+                </a> -->
+
+                <div class="menu">
+                  <ol>
+          
+                      <li class="menu-item">
+                          <a href="#0">Visit</a>
+                          <ol class="sub-menu">
+                              <li class="menu-item"><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&hl=en_IN&gl=US">1st Dropdown</a></li>
+                              <li class="menu-item"><a href="#0">2nd dropdown</a></li>
+                              <li class="menu-item"><a href="#0">3rd dropdown</a></li>
+                          </ol>
+                      </li>
+          
+          
+                  </ol>
+              </div>
+                
+
               </div>
             </div>
             <div class="col-lg-6 col-sm-12">
@@ -191,15 +435,43 @@
                 <h3 class="project-wrapper__text-title">Project Title 2</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque 
+                    With Rabobank Indonesia, I was involved in determining the right thing to build using whole lifecycle of validating
+                    problems by using appropriate analysis, designing solutions and driving adoption across the firm for their 
+                    banking transformation. 
+                  </p>
+                </div>
+                <a id="link" target="_blank" class="cta-btn cta-btn--hero" href="https://www.rabobank.com/en/home/index.html">
+                  Visit Website
+                </a>
+                <!-- <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <div>
+                  <p class="mb-4">
+                    I started my journey with Nokia Networks where I built, tested and deployed telecommunication solutions and networks.
+                    The solutions were designed to enable the new operators in India to start rolling out their services. (Flashback - TATA Docomo!)   
                   </p>
                 </div>
                 <a id="link" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                  Visit Website
                 </a>
                 <!-- <a target="_blank" class="cta-btn text-color-main" href="#!">
                   Source Code
