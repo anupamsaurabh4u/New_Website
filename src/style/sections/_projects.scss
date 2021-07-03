@@ -23,13 +23,13 @@
         margin-bottom: 4rem;
       }
     }
-
-    &__text {
-      text-align: left;
-      &-a{
+  .cta-btn{
         text-align: center;
 
       }
+    &__text {
+      text-align: left;
+    
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
       }
