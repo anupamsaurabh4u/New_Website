@@ -19,8 +19,8 @@
 #Headings{  padding: 15px;
   border-bottom: 1px solid rgba(0,0,0,.1);}
 
-    #link{position: relative;
-      text-align: center;}
+    // #link{position: relative;
+    //   text-align: center;}
     .row {
       margin-bottom: 8rem;
 
@@ -55,8 +55,8 @@
     }
 
     &__image {
-      width: 50%;
-      margin: 0 auto;
+      width: 70%;
+      margin: 0px 10px 0px 20px;
 
       @include respond(tab-land) {
         width: 100%;
