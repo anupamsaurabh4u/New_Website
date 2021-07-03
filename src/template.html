@@ -27,6 +27,43 @@
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
    
+<!-- css for menu bar -->
+<style>
+  .menu {
+    float: right;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: montserrat;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.7s all;
+    position: relative;
+    padding: 28px 30px 10px 30px;
+    display: block;
+}
+
+.menu li a::before {
+    content: "";
+    width: 50px;
+    border-bottom: 3px solid #00b09b;
+    bottom: 0;
+    right: 300px;
+    transition: 0.7s all;
+    position: absolute;
+}
+
+.menu li a:hover::before {
+    right: 20px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+</style>
 
 </head>
 
@@ -58,7 +95,17 @@
   <div class='cursor' id="cursor"></div>
   <div class='cursor2' id="cursor2"></div>
   <div class='cursor3' id="cursor3"></div> -->
+
+  <navbar><ul class="menu">
+    <li> <a href="#">Home</a> </li>
+    <li> <a href="#">Services</a> </li>
+    <li> <a href="#about">About</a> </li>
+    <li> <a href="#btn">Contact us</a> </li>
+
+    </ul>
     
+    </navbar>
+
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
