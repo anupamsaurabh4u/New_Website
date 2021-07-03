@@ -4,18 +4,18 @@ import initSr from "./js/sr";
 
 import "./style/main.scss";
 
-// $('a[href^="#"]').on("click", function (event) {
-//   var target = $(this.getAttribute("href"));
-//   if (target.length) {
-//     event.preventDefault();
-//     $("html, body").stop().animate(
-//       {
-//         scrollTop: target.offset().top,
-//       },
-//       1000
-//     );
-//   }
-// });
+$('a[href^="#"]').on("click", function (event) {
+  var target = $(this.getAttribute("href"));
+  if (target.length) {
+    event.preventDefault();
+    $("html, body").stop().animate(
+      {
+        scrollTop: target.offset().top,
+      },
+      1000
+    );
+  }
+});
 
 // function addResume(pdf) {
 //   if (!pdf) return;
@@ -24,8 +24,8 @@ import "./style/main.scss";
 //   resumeButton.setAttribute("href", pdf);
 // }
 
-// initSr();
-// initTilt();
+initSr();
+initTilt();
 
 // // uncomment this if you want to attach your resume
 // addResume(resume);
