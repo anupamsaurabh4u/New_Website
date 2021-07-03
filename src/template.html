@@ -24,11 +24,28 @@
     <script>
       ScrollReveal({ reset: false });
     </script>
+
+
+
+
 <style>
  #projects #link{
    margin-left: 11rem;
  }
+ #Headind{
+   padding-bottom: 20px;
+   border-bottom: 2px solid rgb(189, 189, 189);
+ }
+ #profile-image{
+   box-shadow: 10px 5px 2px 20px rgba(49, 49, 49, 0.411) ;
+   backdrop-filter: blur(5px);
+ }
 </style>
+
+
+
+
+
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <style>
@@ -93,6 +110,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
+              id="profile-image"
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
@@ -125,7 +143,7 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">WHAT I DO</h2>
+          <h2 class="section-title dark-blue-text" id="Headings">WHAT I DO</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
