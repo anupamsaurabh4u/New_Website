@@ -1,0 +1,392 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1049" height="453" viewBox="0 0 1049 453">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: #707070;
+      }
+
+      .cls-10, .cls-2, .cls-23 {
+        font-size: 25px;
+      }
+
+      .cls-2, .cls-37 {
+        font-family: Poppins-SemiBold, Poppins;
+      }
+
+      .cls-11, .cls-15, .cls-16, .cls-17, .cls-18, .cls-2, .cls-24, .cls-25, .cls-28, .cls-29, .cls-33, .cls-36, .cls-37, .cls-4, .cls-40, .cls-41, .cls-43, .cls-5, .cls-54, .cls-6 {
+        font-weight: 600;
+      }
+
+      .cls-27, .cls-3 {
+        font-size: 29px;
+      }
+
+      .cls-19, .cls-23, .cls-26, .cls-27, .cls-3, .cls-30, .cls-42, .cls-48, .cls-49, .cls-7, .cls-8 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-size: 30px;
+      }
+
+      .cls-11, .cls-28, .cls-29, .cls-36, .cls-4, .cls-40, .cls-41, .cls-5, .cls-54, .cls-6 {
+        font-family: Montserrat-SemiBold, Montserrat;
+      }
+
+      .cls-25, .cls-4 {
+        opacity: 0.58;
+      }
+
+      .cls-5, .cls-7 {
+        opacity: 0.47;
+      }
+
+      .cls-6 {
+        opacity: 0.57;
+      }
+
+      .cls-7 {
+        font-size: 37px;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-21, .cls-35, .cls-36, .cls-8 {
+        font-size: 19px;
+      }
+
+      .cls-19, .cls-36, .cls-8 {
+        letter-spacing: 0.154em;
+      }
+
+      .cls-9 {
+        fill: #565656;
+        font-size: 28px;
+        font-family: Poppins-Light, Poppins;
+      }
+
+      .cls-34, .cls-9 {
+        font-weight: 300;
+      }
+
+      .cls-10, .cls-50 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+      }
+
+      .cls-10, .cls-13, .cls-20, .cls-45, .cls-50 {
+        font-weight: 800;
+      }
+
+      .cls-11, .cls-33, .cls-34, .cls-38 {
+        font-size: 20px;
+      }
+
+      .cls-11, .cls-29, .cls-30, .cls-49, .cls-50 {
+        letter-spacing: 0.043em;
+      }
+
+      .cls-12 {
+        font-size: 35px;
+      }
+
+      .cls-12, .cls-14, .cls-22, .cls-31, .cls-38, .cls-51 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-13 {
+        font-size: 50px;
+      }
+
+      .cls-13, .cls-15, .cls-16, .cls-17, .cls-18, .cls-20, .cls-21, .cls-24, .cls-25, .cls-33, .cls-34, .cls-39, .cls-43, .cls-44, .cls-45, .cls-46, .cls-52, .cls-53 {
+        font-family: Raleway;
+      }
+
+      .cls-14 {
+        fill: #272727;
+        letter-spacing: 0.007em;
+      }
+
+      .cls-14, .cls-53 {
+        font-size: 34px;
+      }
+
+      .cls-15 {
+        font-size: 44px;
+      }
+
+      .cls-16, .cls-17, .cls-26, .cls-40, .cls-41, .cls-42 {
+        font-size: 23px;
+      }
+
+      .cls-16 {
+        opacity: 0.72;
+      }
+
+      .cls-17 {
+        opacity: 0.62;
+      }
+
+      .cls-18, .cls-19, .cls-46, .cls-47, .cls-51 {
+        font-size: 21px;
+      }
+
+      .cls-18 {
+        opacity: 0.66;
+      }
+
+      .cls-20, .cls-24 {
+        font-size: 24px;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.155em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0.051em;
+      }
+
+      .cls-22, .cls-28, .cls-49 {
+        font-size: 17px;
+      }
+
+      .cls-23 {
+        fill: #505050;
+      }
+
+      .cls-24 {
+        opacity: 0.65;
+      }
+
+      .cls-25, .cls-30 {
+        font-size: 16px;
+      }
+
+      .cls-25 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-26, .cls-27 {
+        fill: #1a1a1a;
+      }
+
+      .cls-26, .cls-27, .cls-42 {
+        letter-spacing: 0.023em;
+      }
+
+      .cls-28 {
+        letter-spacing: 0.14em;
+      }
+
+      .cls-29, .cls-31, .cls-44, .cls-52 {
+        font-size: 27px;
+      }
+
+      .cls-32 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3px;
+        opacity: 0.61;
+      }
+
+      .cls-33 {
+        opacity: 0.68;
+      }
+
+      .cls-35 {
+        fill: #8a8a8a;
+        font-family: Rockwell;
+      }
+
+      .cls-37, .cls-48 {
+        font-size: 22px;
+      }
+
+      .cls-39, .cls-43 {
+        font-size: 26px;
+      }
+
+      .cls-39, .cls-44 {
+        font-weight: 500;
+      }
+
+      .cls-40, .cls-41 {
+        letter-spacing: 0.1em;
+      }
+
+      .cls-41, .cls-42 {
+        fill: #616161;
+      }
+
+      .cls-43 {
+        letter-spacing: 0.113em;
+      }
+
+      .cls-44 {
+        letter-spacing: 0.076em;
+      }
+
+      .cls-45 {
+        font-size: 33px;
+      }
+
+      .cls-45, .cls-46, .cls-47 {
+        letter-spacing: 0.082em;
+      }
+
+      .cls-46 {
+        font-weight: 700;
+      }
+
+      .cls-47 {
+        font-family: Pattaya-Regular, Pattaya;
+      }
+
+      .cls-50, .cls-54 {
+        font-size: 31px;
+      }
+
+      .cls-51 {
+        letter-spacing: 0.052em;
+        opacity: 0.74;
+      }
+
+      .cls-55 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-56 {
+        filter: url(#PRODUCT_DESIGN);
+      }
+    </style>
+    <filter id="PRODUCT_DESIGN" x="321" y="149" width="456" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1d1d1d" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1049" height="453"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-55" width="1049" height="453"/>
+    <text id="Banktech" class="cls-2" transform="translate(122 26)"><tspan x="0" y="0">Banktech</tspan></text>
+    <text id="A_N_A_L_Y_T_I_C_S" data-name="A
+N
+A
+L
+Y
+T
+I
+C
+S" class="cls-3" transform="translate(83 57)"><tspan x="0" y="0">A</tspan><tspan x="0" y="35">N</tspan><tspan x="0" y="70">A</tspan><tspan x="0" y="105">L</tspan><tspan x="0" y="140">Y</tspan><tspan x="0" y="175">T</tspan><tspan x="0" y="210">I</tspan><tspan x="0" y="245">C</tspan><tspan x="0" y="280">S</tspan></text>
+    <text id="S" class="cls-4" transform="translate(125 142)"><tspan x="0" y="0">S</tspan></text>
+    <text id="Q" class="cls-5" transform="translate(122 170)"><tspan x="0" y="0">Q</tspan></text>
+    <text id="L" class="cls-6" transform="translate(126 202)"><tspan x="0" y="0">L</tspan></text>
+    <text id="GIT" class="cls-3" transform="translate(119 102)"><tspan x="0" y="0">GIT</tspan></text>
+    <text id="Open_Banking" data-name="Open Banking" class="cls-7" transform="translate(138 63)"><tspan x="0" y="0">Open Banking</tspan></text>
+    <text id="SVN" class="cls-8" transform="translate(152 122)"><tspan x="0" y="0">SVN</tspan></text>
+    <text id="Mockups" class="cls-9" transform="translate(113 314)"><tspan x="0" y="0">Mockups</tspan></text>
+    <text id="DATA" class="cls-10" transform="translate(120 243)"><tspan x="0" y="0">DATA</tspan></text>
+    <text id="ORACLE_CLOUD" data-name="ORACLE 
+        CLOUD" class="cls-11" transform="translate(113 354)"><tspan x="0" y="0">ORACLE </tspan><tspan x="0" y="22" xml:space="preserve">        CLOUD</tspan></text>
+    <text id="Design_Thinking" data-name="Design Thinking" class="cls-12" transform="translate(83 422)"><tspan x="0" y="0">Design Thinking</tspan></text>
+    <g class="cls-56" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <text id="PRODUCT_DESIGN-2" data-name="PRODUCT DESIGN" class="cls-13" transform="translate(330 202)"><tspan x="0" y="0">PRODUCT DESIGN</tspan></text>
+    </g>
+    <text id="Corporate_Finance_" data-name="Corporate  Finance " class="cls-14" transform="translate(638 47)"><tspan x="0" y="0" xml:space="preserve">Corporate  Finance </tspan></text>
+    <text id="Metrics" class="cls-15" transform="translate(274 156)"><tspan x="0" y="0">Metrics</tspan></text>
+    <text id="Docker" class="cls-16" transform="matrix(-0.017, -1, 1, -0.017, 504.34, 158.616)"><tspan x="0" y="0">Docker</tspan></text>
+    <text id="F_I_N_T_E_C_H" data-name="F
+I
+N
+T
+E
+C
+H" class="cls-17" transform="translate(220 87)"><tspan x="0" y="0">F</tspan><tspan x="0" y="27">I</tspan><tspan x="0" y="54">N</tspan><tspan x="0" y="81">T</tspan><tspan x="0" y="108">E</tspan><tspan x="0" y="135">C</tspan><tspan x="0" y="162">H</tspan></text>
+    <text id="Microservices" class="cls-18" transform="translate(476 162) rotate(-90)"><tspan x="0" y="0">Microservices</tspan></text>
+    <text id="Digital_" data-name="Digital " class="cls-3" transform="translate(667 153)"><tspan x="0" y="0">Digital </tspan></text>
+    <text id="S_a_a_S" data-name="S
+a
+a
+S" class="cls-19" transform="translate(933 117)"><tspan x="0" y="0">S</tspan><tspan x="0" y="25">a</tspan><tspan x="0" y="50">a</tspan><tspan x="0" y="75">S</tspan></text>
+    <text id="W_R_E_F_R_A_M_E" data-name="W
+
+ R
+ E
+ F
+ R
+A
+M
+E" class="cls-20" transform="translate(881 108)"><tspan x="0" y="0">W</tspan><tspan x="0" y="28"></tspan><tspan x="0" y="56" xml:space="preserve"> R</tspan><tspan x="0" y="84" xml:space="preserve"> E</tspan><tspan x="0" y="112" xml:space="preserve"> F</tspan><tspan x="0" y="140" xml:space="preserve"> R</tspan><tspan x="0" y="168">A</tspan><tspan x="0" y="196">M</tspan><tspan x="0" y="224">E</tspan></text>
+    <text id="I" class="cls-20" transform="translate(890 136)"><tspan x="0" y="0">I</tspan></text>
+    <text id="Wallet" class="cls-21" transform="translate(365 25)"><tspan x="0" y="0">Wallet</tspan></text>
+    <text id="AARRR" class="cls-22" transform="translate(382 116)"><tspan x="0" y="0">AARRR</tspan></text>
+    <text id="API" class="cls-23" transform="matrix(1, -0.017, 0.017, 1, 488, 41.747)"><tspan x="0" y="0">API</tspan></text>
+    <text id="Kubernetes" class="cls-24" transform="translate(488.842 68.541)"><tspan x="0" y="0">Kubernetes</tspan></text>
+    <text id="ChatBot" class="cls-25" transform="translate(590 145)"><tspan x="0" y="0">ChatBot</tspan></text>
+    <text id="Neo_Banking" data-name="Neo Banking" class="cls-26" transform="translate(287 91)"><tspan x="0" y="0">Neo Banking</tspan></text>
+    <text id="Risk" class="cls-27" transform="translate(902 77)"><tspan x="0" y="0">Risk</tspan></text>
+    <text id="AXURE" class="cls-3" transform="translate(748 90)"><tspan x="0" y="0">AXURE</tspan></text>
+    <text id="B_A_L_S_A_M_I_Q" data-name="B
+A
+L
+S
+A
+M
+I
+Q" class="cls-28" transform="translate(838 111)"><tspan x="0" y="0">B</tspan><tspan x="0" y="20">A</tspan><tspan x="0" y="40">L</tspan><tspan x="0" y="60">S</tspan><tspan x="0" y="80">A</tspan><tspan x="0" y="100">M</tspan><tspan x="0" y="120">I</tspan><tspan x="0" y="140">Q</tspan></text>
+    <text id="REQUIREMENTS" class="cls-29" transform="translate(518 120)"><tspan x="0" y="0">REQUIREMENTS</tspan></text>
+    <text id="HEART" class="cls-30" transform="translate(274 121)"><tspan x="0" y="0">HEART</tspan></text>
+    <text id="Priortization" class="cls-31" transform="translate(681 306)"><tspan x="0" y="0">Priortization</tspan></text>
+    <line id="Line_1" data-name="Line 1" class="cls-32" x2="216" transform="translate(549 210)"/>
+    <text id="H_T_M_L" data-name="H
+T
+M
+L" class="cls-33" transform="translate(946 222)"><tspan x="0" y="0">H</tspan><tspan x="0" y="24">T</tspan><tspan x="0" y="48">M</tspan><tspan x="0" y="72">L</tspan></text>
+    <text id="C" class="cls-34" transform="translate(919 299)"><tspan x="0" y="0">C</tspan></text>
+    <text id="S-2" data-name="S" class="cls-34" transform="translate(920 319)"><tspan x="0" y="0">S</tspan></text>
+    <text id="S-3" data-name="S" class="cls-34" transform="translate(920 338)"><tspan x="0" y="0">S</tspan></text>
+    <text id="Trello" class="cls-35" transform="translate(589 297)"><tspan x="0" y="0">Trello</tspan></text>
+    <text id="Pivot" class="cls-36" transform="translate(320 246)"><tspan x="0" y="0">Pivot</tspan></text>
+    <text id="Roadmap" class="cls-37" transform="translate(535 272)"><tspan x="0" y="0">Roadmap</tspan></text>
+    <text id="Q_u_a_l_i_t_y" data-name="Q
+u
+a
+l
+i
+t
+y" class="cls-38" transform="translate(667 276)"><tspan x="-7.88" y="0">Q</tspan><tspan x="-6.4" y="23">u</tspan><tspan x="-6.76" y="46">a</tspan><tspan x="-2.46" y="69">l</tspan><tspan x="-2.46" y="92">i</tspan><tspan x="-3.64" y="115">t</tspan><tspan x="-5.63" y="138">y</tspan></text>
+    <text id="JIRA" class="cls-39" transform="translate(522 395)"><tspan x="0" y="0">JIRA</tspan></text>
+    <text id="Support" class="cls-40" transform="translate(843 368)"><tspan x="0" y="0">Support</tspan></text>
+    <text id="USABILITY" class="cls-41" transform="translate(514 337)"><tspan x="0" y="0">USABILITY</tspan></text>
+    <text id="P2P_Lending" data-name="P2P Lending" class="cls-42" transform="translate(218 281)"><tspan x="0" y="0">P2P Lending</tspan></text>
+    <text id="Ajile" class="cls-43" transform="translate(778 274)"><tspan x="0" y="0">Ajile</tspan></text>
+    <text id="MVP" class="cls-44" transform="translate(406 233)"><tspan x="0" y="0">MVP</tspan></text>
+    <text id="STRATEGY" class="cls-45" transform="translate(597 247)"><tspan x="0" y="0">STRATEGY</tspan></text>
+    <text id="M_A_N_A_G_E_M_E_N_T" data-name="M
+A
+N
+A
+G
+E
+M
+E
+N
+T" class="cls-46" transform="translate(495 220)"><tspan x="0" y="0">M</tspan><tspan x="0" y="25">A</tspan><tspan x="0" y="50">N</tspan><tspan x="0" y="75">A</tspan><tspan x="0" y="100">G</tspan><tspan x="0" y="125">E</tspan><tspan x="0" y="150">M</tspan><tspan x="0" y="175">E</tspan><tspan x="0" y="200">N</tspan><tspan x="0" y="225">T</tspan></text>
+    <text id="A_B_TEST" data-name="A B TEST" class="cls-46" transform="translate(384 267)"><tspan x="0" y="0">A B TEST</tspan></text>
+    <text id="_" data-name="/" class="cls-47" transform="translate(399 265)"><tspan x="0" y="0">/</tspan></text>
+    <text id="Notion" class="cls-48" transform="translate(563 427)"><tspan x="0" y="0">Notion</tspan></text>
+    <text id="GROWTH" class="cls-49" transform="translate(256 225)"><tspan x="0" y="0">GROWTH</tspan></text>
+    <text id="RESEARCH" class="cls-50" transform="translate(279 325)"><tspan x="0" y="0">RESEARCH</tspan></text>
+    <text id="User_Story" data-name="User Story" class="cls-51" transform="translate(724 340)"><tspan x="0" y="0">User Story</tspan></text>
+    <text id="Confluence" class="cls-52" transform="translate(339 366)"><tspan x="0" y="0">Confluence</tspan></text>
+    <text id="Cloud" class="cls-53" transform="translate(705 385)"><tspan x="0" y="0">Cloud</tspan></text>
+    <text id="Competitive_Analysis" data-name="Competitive Analysis" class="cls-54" transform="translate(684 423)"><tspan x="0" y="0">Competitive Analysis</tspan></text>
+  </g>
+</svg>
