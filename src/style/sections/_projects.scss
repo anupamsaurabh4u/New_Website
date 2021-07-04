@@ -10,7 +10,7 @@
   }
 
   .project-wrapper {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
@@ -23,7 +23,7 @@
     //   text-align: center;}
     // changed the margin for my skill and what i do sections
     .row {
-      margin-bottom: 8rem; 
+      margin-bottom: 5rem; 
 
       @include respond(phone) {
         margin-bottom: 4rem;
