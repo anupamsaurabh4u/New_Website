@@ -21,8 +21,9 @@
 
     // #link{position: relative;
     //   text-align: center;}
+    // changed the margin for my skill and what i do sections
     .row {
-      margin-bottom: 8rem;
+      margin-bottom: 4rem; 
 
       @include respond(phone) {
         margin-bottom: 4rem;
