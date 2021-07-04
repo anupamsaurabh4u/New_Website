@@ -68,6 +68,16 @@ export default function() {
       }, defaultProps)
   );
 
+  // // /* Skill Section */ new added
+  // ScrollReveal().reveal('.skill-wrapper', 
+  // assignProps(
+  //   {
+  //     delay: 800,
+  //     origin: 'bottom'
+  //   }, defaultProps)
+  // );
+
+
   /* Contact Section */
   ScrollReveal().reveal('.contact-wrapper', 
     assignProps(
